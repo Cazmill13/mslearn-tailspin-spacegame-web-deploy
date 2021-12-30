@@ -20,7 +20,7 @@ stages:
   - job: 'Build'
     displayName: 'Build job'
     pool:
-      nname: Default
+      name: Default
       demands:
       - npm
 
